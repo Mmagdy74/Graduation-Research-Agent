@@ -42,3 +42,7 @@ def generate_research(data: ResearchData):
     doc.save(filepath)
 
     return FileResponse(filepath, media_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", filename=filename)
+    
+    @app.get("/")
+def home():
+    return {"message": "FastAPI is running successfully!"}
