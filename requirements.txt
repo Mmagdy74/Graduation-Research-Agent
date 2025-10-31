@@ -2,3 +2,9 @@ fastapi
 uvicorn
 python-docx
 pydantic
+PyPDF2
+pdf2image
+Pillow
+reportlab
+matplotlib
+numpy
